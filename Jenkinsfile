@@ -13,7 +13,7 @@ pipeline {
         }
         stage("Build") {
             steps {
-                dir("Test") {
+                dir("virgin-pipeline") {
                     sh "pwd"
                     sh "mvn clean install"
                 }
