@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Clone Repo") {
             steps {
-                sh "git clone https://github.com/sovisrushain/alpha-pipeline.git"
+                sh "git clone https://github.com/sovisrushain/virgin-pipeline.git"
             }
         }
         stage("Build") {
